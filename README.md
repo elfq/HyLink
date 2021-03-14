@@ -33,3 +33,10 @@ python bot.py
 ```
 
 Congratulations! You've successfully setup the bot.
+
+**`2)`**
+Once your bot is online, make sure to give it permissions to change nicknames, and add roles. After you've done that, create a role called `Verified`.
+
+## Attributions
+This bot is heavily inspired by the verification bot in SkyBlockZ
+discord.gg/skyblock
