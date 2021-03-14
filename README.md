@@ -21,6 +21,7 @@ TOKEN=
 API_KEY=
 ```
 For the `TOKEN=` part, you'll add your bot token.
+
 For the `API_KEY=` part, you'll add your Hypixel API key. 
 *to get your API Key, open up Hypixel, and type /api key in chat and copy & paste it*
 
