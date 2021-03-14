@@ -60,6 +60,6 @@ class HyLink(commands.Cog):
                     )
 
 
-bot = commands.Bot(command_prefix="!", intents=discord.Intents.all())
+bot = commands.Bot(command_prefix="!", intents=intents=discord.Intents(guilds=True, messages=True, reactions=True))
 bot.add_cog(HyLink(bot))
 bot.run(environ.get("TOKEN"))
