@@ -51,7 +51,7 @@ class HyLink(commands.Cog):
                     f"https://api.hypixel.net/player?key={environ.get('API_KEY')}&name={ign.content}"
                 )
                 if r.json()["player"]["socialMedia"]["links"]["DISCORD"] == ctx.author:
-                    await ctx.author.send("✅  You've been verified!")
+                    await ctx.author.send("✅ You've been verified!")
                     await ctx.author.edit(nick=ign.content)
                     await ctx.author.add_roles("Verified")
                 else:
